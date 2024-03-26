@@ -12,10 +12,12 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.30",
+    "@types/uuid": "^9.0.8",
     "prisma": "^5.11.0",
     "tsup": "^8.0.2",
     "tsx": "^4.7.1",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.3",
+    "uuid": "^9.0.1"
   },
   "dependencies": {
     "@prisma/client": "^5.11.0",
