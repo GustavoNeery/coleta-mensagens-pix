@@ -1,8 +1,6 @@
 import fastify from "fastify"
+import { appRoutes } from "./routes"
 
 export const app = fastify()
 
-app.get('/api/first', async (request, reply) => {
-  console.log("teste")
-  return reply.status(200).send()
-})
+app.register(appRoutes)
